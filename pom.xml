@@ -102,18 +102,19 @@
     <wiremock.version>3.9.1</wiremock.version>
     <xml-resolver.version>1.2</xml-resolver.version>
     <xstream.version>1.4.5</xstream.version>
-    <!-- do not update necessary for lesson -->
+    <!-- do not update necessary for lesson 
     <zxcvbn.version>1.9.0</zxcvbn.version>
   </properties>
 
   <dependencyManagement>
     <dependencies>
+        <!--
     <dependency>
     <groupId>log4j</groupId>
     <artifactId>log4j</artifactId>
     <version>1.2.17</version>
     </dependency>
-     
+     -->
       <dependency>
         <groupId>org.asciidoctor</groupId>
         <artifactId>asciidoctorj</artifactId>
